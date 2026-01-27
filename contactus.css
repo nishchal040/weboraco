@@ -179,7 +179,7 @@ h5 img{
     color: inherit;
   text-decoration: none; 
 }
-.contact h3{
+.contact h1{
     font-family: 'milker';
 }
 .contact h4{
@@ -222,6 +222,7 @@ h5 img{
     }
     .contact{
         margin-top:70px;
+        font-size: large;
     }
     .about{
         flex-direction: column;
@@ -255,5 +256,8 @@ h5 img{
 
     h5 img {
         width: 9vw;
+    }
+    .contact{
+        font-size: large;
     }
 }
