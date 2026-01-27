@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}   
+.logo{
+    display: flex;
+    gap: 10px;
+}
+.logo img {
+    height: 40px;
+    width: auto;
+    display: block;
+}
+body{
+    background-color:rgb(29, 27, 27);
+}
+video{
+    position: absolute;
+    height: 100vh;
+    object-fit: cover;
+    width: 100%;
+    z-index: -1;
+
+}
+nav{
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 5px 5px;
+    padding-top: 15px;
+    font-size:small;
+    display: flex;
+    justify-content: space-between;
+    margin:0px 30px 0px 30px;
+   animation: color 0.5s both;
+   animation-timeline: scroll();
+}
+@keyframes color {
+    from{
+background-color: transparent;
+    }
+    to{
+        margin: 0;
+background-color: #0a4fbe;
+    }    
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    font-family: 'poppins';
+    list-style: none;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+nav ul li a {
+  color: inherit;
+  text-decoration: none; 
+}
+nav ul li:hover{
+    color:black;
+    cursor: pointer;
+}
+.menu img{
+    display: none;
+    width: 25px;
+    align-content: center;
+}
+.menu ul{
+    display: flex;
+}
+@font-face {
+    font-family: 'milker';
+    src: url(milker.regular.otf);
+}
+.about-container{
+    height: 90vh;
+    padding-top: 10%;
+}
+.about-container h1{
+    display: flex;
+    justify-self: center;
+    font-family: 'milker';
+    padding-top: 20px;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    -webkit-text-fill-color: transparent;
+}
+.about-container p{
+    font-weight: 900;
+    font-family: 'poppins';
+    padding: 45px;
+    font-size: large;
+    text-align: center;
+    line-height: 35px;
+   color: #0a4fbe;
+    -webkit-text-stroke: white 0.1px;
+}
+
+.about{
+    display:flex;
+    align-items: center;
+    font-family: 'poppins';
+    justify-content: space-around;
+    color: white;
+    font-size:medium;
+}
+
+.about img{
+    width: 30vw;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+footer p{
+    color: white;
+    font-size: x-small;
+    font-family:'Times New Roman', Times, serif;
+}
+h5{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-family: 'poppins';
+    background: linear-gradient(to right,#0a4fbe,#23d6c9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+h5 img{
+    justify-self: center;
+    display: flex;
+    cursor: pointer;
+    width: 3vw;
+}
+
+
+
+@media (max-width: 768px) {
+    
+    .menu ul{
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        inset: 0;
+        background-color: rgb(57, 52, 52);
+        width: 100vw;
+        height: 100vh;
+        padding-top: 10vh;
+        z-index: 9999;
+    }
+    .menu ul li{
+        font-size: medium;
+        padding: 30px;
+    }
+    .menu ul.active{
+        display: flex;
+    }
+    #ham-menu{
+        display: block;
+        position: fixed;
+        right: 6%;
+        cursor: pointer;
+        z-index: 11111;
+    }
+    .logo img {
+        height: 35px;
+    }
+    .about-container{
+        padding-top: 40px
+    }
+    .about-container p {
+        font-size:4vw;
+    }
+    .about{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 10vh;
+    }
+    .about img {
+        width: 60vw;
+    }
+    h5{
+        padding-top: 60px;
+    }
+    h5 img {
+        width: 5vw;
+    }
+}
+
+
+/* Small Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+
+    .banner-text h1 {
+        font-size: 1.6rem;
+    }
+    .menu img{
+        display: block;
+    }
+    .banner-text p {
+        font-size: x-small;
+    }
+
+    .col h3 {
+        font-size: small;
+    }
+
+    .col li {
+        font-size: xx-small;
+    }
+    .about{
+        font-size: medium;
+    }
+    footer p {
+        font-size: xx-small;
+    }
+
+    h5 img {
+        width: 9vw;
+    }
+}
