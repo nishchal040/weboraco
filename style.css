@@ -132,7 +132,7 @@ hr{
 .services-container{
     background-color: rgb(29, 27, 27);
 }
-.services-container h1{
+.services-container h2{
     display: flex;
     justify-self: center;
     padding: 40px;
