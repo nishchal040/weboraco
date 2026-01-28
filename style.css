@@ -267,7 +267,14 @@ h5 img{
 
 /* Mobile Devices (max-width: 768px) */
 @media (max-width: 768px) {
-    
+    .logo{
+        width: 20px;
+    }
+    .logo img{
+        width: 100px;
+        object-fit: contain;
+
+    }
     .menu ul{
         display: none;
         flex-direction: column;

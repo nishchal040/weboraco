@@ -142,7 +142,14 @@ h5 img{
 
 
 @media (max-width: 768px) {
-    
+    .logo{
+        width: 20px;
+    }
+    .logo img{
+        width: 100px;
+        object-fit: contain;
+
+    }
     .menu ul{
         display: none;
         flex-direction: column;
@@ -172,7 +179,9 @@ h5 img{
         height: 35px;
     }
     .about-container{
-        padding-top: 40px
+        padding-top: 80px;
+        font-size: small;
+
     }
     .about-container p {
         font-size:4vw;
@@ -215,7 +224,7 @@ h5 img{
         font-size: xx-small;
     }
     .about{
-        font-size: medium;
+        font-size: small;
     }
     footer p {
         font-size: xx-small;

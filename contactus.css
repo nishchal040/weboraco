@@ -197,7 +197,14 @@ h5 img{
 }
 
 @media (max-width: 768px) {
-    
+    .logo{
+        width: 20px;
+    }
+    .logo img{
+        width: 100px;
+        object-fit: contain;
+
+    }
     .menu ul{
         display: none;
         flex-direction: column;
@@ -226,12 +233,17 @@ h5 img{
     .logo img {
         height: 35px;
     }
+    form{
+        margin-top:20px ;
+        width: 70vw;
+    }
     .form{
         height: 80vh;
+        padding-top: 90px;
+        text-align: center;
     }
     .contact{
-        margin-top:70px;
-        font-size: large;
+        margin-top:80px;
     }
     .about{
         flex-direction: column;
@@ -257,7 +269,7 @@ h5 img{
     }
     
     .about{
-        font-size: medium;
+        font-size: small;
     }
     footer p {
         font-size: xx-small;
@@ -267,6 +279,12 @@ h5 img{
         width: 9vw;
     }
     .contact{
-        font-size: large;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        font-size:medium;
+    }
+    .contact li{
+        font-size: x-small;
     }
 }
