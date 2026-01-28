@@ -183,11 +183,16 @@ h5 img{
     color: inherit;
   text-decoration: none; 
 }
+.contact li{
+    font-size: small;
+    letter-spacing: 1px;
+
+}
 .contact h1{
     font-family: 'milker';
 }
 .contact h4{
-    font-size: small;
+    font-size: medium;
     font-family: 'poppins';
 }
 
