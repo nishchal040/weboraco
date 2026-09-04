@@ -1,20 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KYHMMQ7MVR"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-KYHMMQ7MVR');
-</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact WeboraCo for professional frontend development services. Let’s build fast, responsive and SEO-friendly websites together.">
-    <meta name="keywords" content="contact WeboraCo, website development contact, frontend developer contact, web design agency contact">
+    <title>Contact WeboraCo – Start Your Website Project</title>
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Contact WeboraCo – Start Your Website Project">
+    <meta name="description" content="Get in touch with WeboraCo for professional website design and frontend development services. Let’s build fast, responsive, and SEO-friendly websites together.">
+    <meta name="keywords" content="contact WeboraCo, hire web designer, frontend development contact, web design agency contact, website development quote">
+    <meta name="author" content="WeboraCo">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#1d1b1b">
 
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://weboraco.com/contactus.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://weboraco.com/contactus.html">
+    <meta property="og:title" content="Contact WeboraCo – Start Your Website Project">
+    <meta property="og:description" content="Get in touch with WeboraCo for professional website design and frontend development services.">
+    <meta property="og:image" content="https://weboraco.com/oglogo.webp">
+    <meta property="og:image:alt" content="WeboraCo Brand Logo">
+    <meta property="og:site_name" content="WeboraCo">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://weboraco.com/contactus.html">
+    <meta name="twitter:title" content="Contact WeboraCo – Start Your Website Project">
+    <meta name="twitter:description" content="Get in touch with WeboraCo for professional website design and frontend development services.">
+    <meta name="twitter:image" content="https://weboraco.com/oglogo.webp">
+
+    <!-- EmailJS SDK -->
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
     </script>
@@ -26,73 +44,235 @@
     })();
     </script>
 
-    <link rel="stylesheet" href="contactus.css">
-    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon-32x32.webp" type="image/webp">
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Courgette&family=Grand+Hotel&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Courgette&family=Grand+Hotel&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
     </style>
 
-    <title>Contact WeboraCo – Website Design</title>
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "WeboraCo",
+        "url": "https://weboraco.com/",
+        "logo": "https://weboraco.com/logo.webp",
+        "email": "info.webora.co@gmail.com",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "info.webora.co@gmail.com",
+          "contactType": "customer service"
+        }
+      }
+    }
+    </script>
 </head>
 <body>
-    <video src="bg.webm" autoplay muted loop preload="metadata" poster="poster.jpg"></video>
-    <nav>
-                <div class="logo">
-                    <img src="logo1.webp" alt="WeboraCo symbol logo" loading="lazy">
-                    <a href="index.html"><img src="logo.webp" alt="WeboraCo main logo" loading="lazy"></a>
+    <!-- Modern Header -->
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main Navigation">
+            <a href="index.html" class="logo" aria-label="WeboraCo Home">
+                <img src="logo1.webp" alt="WeboraCo Symbol Logo" width="40" height="40">
+                <img src="logo.webp" alt="WeboraCo Brand Logo" height="40">
+            </a>
+            
+            <div class="nav-menu" id="nav-menu">
+                <button class="close-drawer-btn" onclick="closemenu()" aria-label="Close navigation menu">
+                    <svg class="svg-icon" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="services.html">Services</a></li>
+                    <li class="nav-item"><a href="works.html">Works</a></li>
+                    <li class="nav-item"><a href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a href="aboutus.html">About Us</a></li>
+                    <li class="nav-item active"><a href="contactus.html">Contact Us</a></li>
+                </ul>
+                <a href="contactus.html" class="nav-cta mobile-drawer-cta">Let's Talk &rarr;</a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="contactus.html" class="nav-cta">Let's Talk &rarr;</a>
+                <button class="ham-btn" id="ham-menu" onclick="showmenu()" aria-label="Open navigation menu">
+                    <img src="menu.webp" alt="Open menu icon" width="28" height="28">
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Polished Inner Hero Section -->
+        <section class="inner-hero" aria-label="Contact Us Hero Banner">
+            <video src="bg.webm" autoplay muted loop preload="metadata" poster="poster.webp" playsinline></video>
+            <div class="inner-hero-overlay"></div>
+            <div class="inner-hero-content">
+                <div class="hero-badge">
+                    <svg class="badge-svg-icon" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                    Start a Conversation
                 </div>
-                <div class="menu" id="menu">
-                    <img src="menu.webp" alt="menu" id="ham-menu" onclick="showmenu()" loading="lazy">
-                    <ul id="list">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="index.html#services">Services</a></li>
-                        <li><a href="aboutus.html">About Us</a></li>
-                        <li><a href="contactus.html">Contact Us</a></li>
+                <h1>Get in Touch</h1>
+                <p>Have an upcoming project, need website consulting, or looking for a quote? Reach out and we'll reply within 24 hours.</p>
+            </div>
+        </section>
+
+        <!-- Contact Form & Info Suite -->
+        <section class="contact-section-wrapper" aria-labelledby="contact-heading">
+            <div class="contact-form-container">
+                <h2 id="contact-heading">Send Us a Message</h2>
+                <p class="form-subtitle">Fill in your project details below and we'll get back to you promptly.</p>
+                <form class="inquiry-form" onsubmit="sendmail(); return false;" aria-label="Contact inquiry form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="e.g. Alex Morgan" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="e.g. alex@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Project Requirements & Goals</label>
+                        <textarea id="message" name="message" placeholder="Tell us about your business, website goals, preferred timeline, or specific features..." rows="6" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message &rarr;</button>
+                </form>
+            </div>
+
+            <aside class="contact-info-panel">
+                <div class="info-card">
+                    <h3>Direct Channels</h3>
+                    <ul>
+                        <li>
+                            <svg class="list-svg-icon" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            <span>Email: <a href="mailto:info.webora.co@gmail.com">info.webora.co@gmail.com</a></span>
+                        </li>
+                        <li>
+                            <svg class="list-svg-icon" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                            <span>Instagram: <a href="https://www.instagram.com/webora.co" target="_blank" rel="noopener noreferrer">@webora.co</a></span>
+                        </li>
+                        <li>
+                            <svg class="list-svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
+                            <span>Operating Globally (Remote Studio)</span>
+                        </li>
+                    </ul>
+                    <div class="status-badge">
+                        <span class="status-dot"></span>
+                        <span>Available for new client projects</span>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <h3>What Happens Next?</h3>
+                    <ul class="step-list">
+                        <li>
+                            <div>
+                                <strong>Discovery & Review:</strong> We review your project vision, brand goals, and target audience.
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <strong>Transparent Quote:</strong> We send you a detailed project breakdown, scope, and estimated timeline.
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <strong>Design & Build:</strong> Once approved, we craft your bespoke website from wireframe to launch.
+                            </div>
+                        </li>
                     </ul>
                 </div>
-            </nav>
-    <section class="form">
-        <h1>Contact WeboraCo</h1>
-        <p>
-            Get in touch with WeboraCo for professional website design and frontend development services.
-        </p>
-        <form onsubmit="sendmail(); return false;">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Deo" required>
+            </aside>
+        </section>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="johndeo@gmail.com" required>
+        <hr>
 
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Tell us about your Project!!" rows="10" cols="40" required></textarea>
+        <section class="about" aria-label="Our Mission">
+            <img src="oglogo.webp" alt="WeboraCo full brand logo" loading="lazy" width="300" height="auto">
+            <h2>Our mission is simple: to help businesses grow through<br> thoughtful design and dependable technology.</h2>
+        </section>
+    </main>
 
-            <button type="submit">Send Message</button>
-        </form>
+    <!-- Proper Modern Multi-Column Footer -->
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-col footer-brand">
+                <a href="index.html" class="footer-brand-logo" aria-label="WeboraCo Home">
+                    <img src="logo1.webp" alt="WeboraCo Symbol Logo" width="36" height="36">
+                    <img src="logo.webp" alt="WeboraCo Brand Logo" height="36">
+                </a>
+                <p class="footer-desc">
+                    WeboraCo is a modern web design and frontend development studio crafting fast, responsive, and SEO-optimized digital experiences that help businesses grow.
+                </p>
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/webora.co?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="WeboraCo on Instagram">
+                        <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                </div>
+            </div>
 
-    </section>
-    <section class="contact">
-        <h2>Contact Information</h2>
-        <ul>
-            <li>Professional website design</li>
-            <li>Frontend development services</li>
-            <li>Responsive web solutions</li>
-            <li>SEO friendly websites</li>
-        </ul>
-        <h4>Email: <a href="mailto:info.webora.co@gmail.com">info.webora.co@gmail.com</a></h4>
-    </section>
-    <section class="about">
-        <img src="oglogo.webp" alt="WeboraCo full brand logo" loading="lazy">
-        <h2>Our mission is simple, to help businesses grow through<br> thoughtful design and dependable technology.</h2>
-    </section>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="works.html">Our Works</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Our Services</h4>
+                <ul class="footer-links">
+                    <li><a href="services.html">Website Design & UI/UX</a></li>
+                    <li><a href="services.html">Frontend Engineering</a></li>
+                    <li><a href="services.html">Speed & Performance</a></li>
+                    <li><a href="services.html">SEO-First Architecture</a></li>
+                    <li><a href="services.html">Mobile Optimization</a></li>
+                    <li><a href="services.html">Website Maintenance</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Get In Touch</h4>
+                <div class="footer-contact-info">
+                    <div class="footer-contact-item">
+                        <svg class="footer-svg-icon" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        <a href="mailto:info.webora.co@gmail.com">info.webora.co@gmail.com</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg class="footer-svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
+                        <span>Remote Studio • Worldwide</span>
+                    </div>
+                    <div class="status-badge">
+                        <span class="status-dot"></span>
+                        <span>Available for new projects</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-inner">
+                <p>© 2025 WeboraCo. All rights reserved. Professional Website Design & Frontend Studio.</p>
+                <button class="back-to-top-btn" onclick="scrollToTop()" aria-label="Scroll back to top">
+                    <span>&uarr;</span>
+                    <span>Back to Top</span>
+                </button>
+            </div>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
-
-<footer>
-    <h5>Follow Us
-        <a href="https://www.instagram.com/webora.co?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img src="instagram.webp" alt="instagram"></a>
-    </h5>
-    <p>© 2025 WeboraCo. All rights reserved.</p>
-</footer>
-
 </html>

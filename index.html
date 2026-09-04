@@ -3,110 +3,589 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Get a professional website built for cafés, coffee shops, bakeries, and niche food businesses. Weboraco creates fast, modern, mobile-ready sites that help you attract customers and grow your brand.">
-    <meta name="keywords" content="cafe website design, website for cafe, coffee shop website, bakery website design, food business website, small business website design, restaurant website design, cafe menu website, modern cafe website, affordable website for cafe, custom cafe website, food brand website design">
-    <meta name="google-site-verification" content="jzF0hNRarNiYU_cQ4i9jl0F8V_RP9Xpi3n844NDCm7E" />
+    <title>WeboraCo – Modern Website Design & Frontend Development Studio</title>
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="WeboraCo – Modern Website Design & Frontend Development Studio">
+    <meta name="description" content="WeboraCo is a modern web design and frontend development studio. We build clean, high-performance, responsive, and SEO-friendly websites for growing brands.">
+    <meta name="keywords" content="web design studio, frontend development, custom website design, responsive web design, UI UX design, React web developer, fast business websites, SEO friendly websites">
+    <meta name="author" content="WeboraCo">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#1d1b1b">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://weboraco.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://weboraco.com/">
+    <meta property="og:title" content="WeboraCo – Modern Website Design & Frontend Development Studio">
+    <meta property="og:description" content="We build clean, high-performance, responsive, and SEO-friendly websites that help businesses grow online.">
+    <meta property="og:image" content="https://weboraco.com/oglogo.webp">
+    <meta property="og:image:alt" content="WeboraCo Studio Brand Logo">
+    <meta property="og:site_name" content="WeboraCo">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://weboraco.com/">
+    <meta name="twitter:title" content="WeboraCo – Modern Website Design & Frontend Development Studio">
+    <meta name="twitter:description" content="We build clean, high-performance, responsive, and SEO-friendly websites that help businesses grow online.">
+    <meta name="twitter:image" content="https://weboraco.com/oglogo.webp">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Courgette&family=Grand+Hotel&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Courgette&family=Grand+Hotel&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
     </style>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon-32x32.webp" type="image/webp">
 
-    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
-
-    <title>WeboraCo – Professional Website Design</title>
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://weboraco.com/#organization",
+          "name": "WeboraCo",
+          "url": "https://weboraco.com/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://weboraco.com/logo.webp",
+            "width": "200",
+            "height": "60"
+          },
+          "image": "https://weboraco.com/oglogo.webp",
+          "description": "Modern website design and frontend development studio focused on building high-performance, conversion-focused websites.",
+          "email": "info.webora.co@gmail.com",
+          "sameAs": [
+            "https://www.instagram.com/webora.co"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://weboraco.com/#website",
+          "url": "https://weboraco.com/",
+          "name": "WeboraCo",
+          "publisher": {
+            "@id": "https://weboraco.com/#organization"
+          },
+          "description": "Modern website design and frontend development studio."
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://weboraco.com/#service",
+          "name": "WeboraCo Web Design & Development",
+          "url": "https://weboraco.com/",
+          "provider": {
+            "@id": "https://weboraco.com/#organization"
+          },
+          "serviceType": "Website Design and Frontend Engineering",
+          "areaServed": "Worldwide",
+          "priceRange": "$$"
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://weboraco.com/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What services does WeboraCo offer?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "WeboraCo specializes in modern website design, UI/UX conceptualization, high-performance frontend engineering (HTML, CSS, JavaScript, React.js), speed optimization, and search engine optimization (SEO)."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are WeboraCo websites mobile-responsive and SEO-ready?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, 100%. Every website we build is crafted with a mobile-first philosophy and structured with semantic HTML5, fast asset loading, Open Graph metadata, and JSON-LD schema markup for superior Google search rankings."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I start a website project with WeboraCo?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Simply visit our Contact Us page or email us directly at info.webora.co@gmail.com. We will discuss your goals, provide a free consultation, and outline a tailored roadmap."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 </head>
-    <body>
-        <div class="main">
-            <video src="bg.webm" autoplay muted loop preload="metadata" poster="poster.jpg"></video>
-            <nav>
-                <div class="logo">
-                    <img src="logo1.webp" alt="WeboraCo symbol logo" loading="lazy">
-                    <a href="index.html"><img src="logo.webp" alt="WeboraCo main logo" loading="lazy"></a>
-                </div>
-                <div class="menu" id="menu">
-                    <img src="menu.webp" alt="menu" id="ham-menu" onclick="showmenu()">
-                    <ul id="list">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="index.html#services">Services</a></li>
-                        <li><a href="aboutus.html">About Us</a></li>
-                        <li><a href="contactus.html">Contact Us</a></li>
-                    </ul>
-                </div>
-            </nav>
-                <div class="banner-container">
-                    <div class="banner-text">
-                        <h1>Turning ideas into<br> powerful digital experiences</h1>
-                        <p>
-                            WeboraCo delivers fast, responsive and SEO-friendly websites.
-                            We help businesses turn ideas into powerful digital experiences using modern frontend development.
-                        </p>
-                    </div>
-                </div>
+<body>
+    <!-- Modern Header -->
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main Navigation">
+            <a href="index.html" class="logo" aria-label="WeboraCo Home">
+                <img src="logo1.webp" alt="WeboraCo Symbol Logo" width="40" height="40">
+                <img src="logo.webp" alt="WeboraCo Brand Logo" height="40">
+            </a>
+            
+            <div class="nav-menu" id="nav-menu">
+                <button class="close-drawer-btn" onclick="closemenu()" aria-label="Close navigation menu">
+                    <svg class="svg-icon" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
+                <ul class="nav-list">
+                    <li class="nav-item active"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="services.html">Services</a></li>
+                    <li class="nav-item"><a href="works.html">Works</a></li>
+                    <li class="nav-item"><a href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a href="aboutus.html">About Us</a></li>
+                    <li class="nav-item"><a href="contactus.html">Contact Us</a></li>
+                </ul>
+                <a href="contactus.html" class="nav-cta mobile-drawer-cta">Let's Talk &rarr;</a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="contactus.html" class="nav-cta">Let's Talk &rarr;</a>
+                <button class="ham-btn" id="ham-menu" onclick="showmenu()" aria-label="Open navigation menu">
+                    <img src="menu.webp" alt="Open menu icon" width="28" height="28">
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Banner -->
+    <div class="main">
+        <video src="bg.webm" autoplay muted loop preload="metadata" poster="poster.webp" playsinline></video>
+        <div class="banner-container">
+            <div class="banner-text">
+                <h1>MODERN WEBSITES BUILT FOR GROWTH</h1>
+                <p>We build fast, responsive, and SEO-optimized websites that turn visitors into customers.</p>
+            </div>
         </div>
-        <div class="services-container" id="services">
-            <h2>Services</h2>
+    </div>
+
+    <!-- Main Content Area -->
+    <main class="services-container">
+        <!-- 1. CORE SERVICES OVERVIEW -->
+        <section aria-labelledby="services-heading">
+            <h2 id="services-heading">WHAT WE DO</h2>
             <div class="cards-container">
-                    <div class="col">
-                        <h3>🌐 Website Design & Development</h3>
+                <article class="col">
+                    <h3>
+                        <svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                        Website Design & Development
+                    </h3>
+                    <ul>
+                        <li>
+                            <svg class="list-svg-icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Custom, modern UI tailored to your brand
+                        </li>
+                        <li>
+                            <svg class="list-svg-icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Fully responsive across all devices
+                        </li>
+                        <li>
+                            <svg class="list-svg-icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Fast loading & SEO-friendly structure
+                        </li>
+                        <li>
+                            <svg class="list-svg-icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Clean, scalable, maintainable code
+                        </li>
+                        <li>
+                            <svg class="list-svg-icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Focused on usability & conversions
+                        </li>
+                    </ul>
+                </article>
 
-                        <ul>
-                            <li>🎨 Custom, modern UI tailored to your brand</li>
-                            <li>📱 Fully responsive across all devices</li>
-                            <li>⚡ Fast loading & SEO-friendly structure</li>
-                            <li>🧩 Clean, scalable, maintainable code</li>
-                            <li>🎯 Focused on usability & conversions</li>
-                        </ul>
-                    </div>
-                    <div class="col">
-                        <h3>⚛️ Frontend Development</h3>
+                <article class="col">
+                    <h3>
+                        <svg class="svg-icon" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline><line x1="14" y1="4" x2="10" y2="20"></line></svg>
+                        Frontend Development
+                    </h3>
+                    <ul>
+                        <li>
+                            <svg class="list-svg-icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            HTML5, CSS3, JavaScript & React.js
+                        </li>
+                        <li>
+                            <svg class="list-svg-icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Smooth animations & micro-interactions
+                        </li>
+                        <li>
+                            <svg class="list-svg-icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            API integration & dynamic content
+                        </li>
+                        <li>
+                            <svg class="list-svg-icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Performance-optimized rendering
+                        </li>
+                        <li>
+                            <svg class="list-svg-icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Cross-browser compatibility
+                        </li>
+                    </ul>
+                </article>
+            </div>
+        </section>
 
-                        <ul>
-                            <li>💻 HTML, CSS, JavaScript & React.js</li>
-                            <li>✨ Smooth animations & micro-interactions</li>
-                            <li>🔗 API integration & dynamic content</li>
-                            <li>🚀 Performance-optimized rendering</li>
-                            <li>🌍 Cross-browser compatibility</li>
-                        </ul>
-                    </div>
-            </div><hr>
-            <section class="projects-container">
-                <h2>our Works</h2>
-                <div class="project-cards">
-                    
-                    <div class="project">
-                        <a href="https://saiganeshmarketing.vercel.app/">
-                    <img src="Screenshot (132).png" alt="Project2"></img>
+        <hr>
+
+        <!-- 2. FEATURED WORKS & CASE STUDIES -->
+        <section class="projects-container" aria-labelledby="works-heading">
+            <h2 id="works-heading">OUR WORKS</h2>
+            <div class="project-cards">
+                <article class="project">
+                    <a href="https://saiganeshmarketing.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visit Sai Ganesh Marketing Website">
+                        <img src="saiganesh.webp" alt="Sai Ganesh Marketing Website Preview" loading="lazy">
                     </a>
-                        <h3>Sai Ganesh Marketing</h3>
+                    <h3>Sai Ganesh Marketing</h3>
+                    <div class="project-tags">
+                        <span class="project-tag">Business Website</span>
+                        <span class="project-tag">SEO Architecture</span>
+                        <span class="project-tag">WhatsApp API</span>
+                    </div>
                     <p>
-                        Sai Ganesh Marketing is a professional business website designed to represent a local trading and marketing firm with clarity and trust with WhatsApp integration. The site highlights products and services with a simple, user-friendly layout, responsive design, and clear contact sections to improve customer engagement and accessibility.
+                        Sai Ganesh Marketing is a professional business website built for a commercial trading and marketing firm. The site highlights product lines, trading services, and trust factors with an intuitive user flow, speed-optimized structure, and instant WhatsApp inquiry integration.
                     </p>
+                    <a href="https://saiganeshmarketing.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                        View Live Website &rarr;
+                    </a>
+                </article>
+
+                <article class="project">
+                    <a href="https://gillott-espresso.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visit Gillott Espresso Cafe Website">
+                        <img src="gilleto.webp" alt="Gillott Espresso Coffee Shop Website Preview" loading="lazy">
+                    </a>
+                    <h3>Gillott Espresso – Artisan Coffee</h3>
+                    <div class="project-tags">
+                        <span class="project-tag">Cafe & Coffee</span>
+                        <span class="project-tag">Modern UI/UX</span>
+                        <span class="project-tag">Responsive Design</span>
                     </div>
-                    <div class="project">
-                        <a href="https://gillott-espresso.vercel.app/"><img src="gilleto.png" alt="project3" loading="lazy"></a>
-                        <h3>Gillott Espresso – Modern Coffee Shop Website</h3>
-                        <p>Developed a responsive and visually engaging website for a coffee brand, focusing on elegant typography, smooth layout, and strong visual hierarchy. The project emphasizes modern UI design, mobile responsiveness, and performance optimization. Built using front-end technologies to create an immersive brand experience that highlights products, ambience, and storytelling.
-                        </p>
+                    <p>
+                        A responsive, visually engaging web experience built for an artisan coffee brand. Emphasizes warm visual hierarchy, rich storytelling, product showcases, and seamless mobile interactions to connect customers with the cafe experience.
+                    </p>
+                    <a href="https://gillott-espresso.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                        View Live Website &rarr;
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- 3. WHY CHOOSE WEBORACO -->
+        <section class="why-us-container" aria-labelledby="why-us-heading">
+            <h2 id="why-us-heading">WHY CHOOSE WEBORACO</h2>
+            <div class="features-grid">
+                <article class="feature-card">
+                    <svg class="feature-svg-icon" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                    <h3>Lightning Fast Performance</h3>
+                    <p>Speed is critical for user retention and Google search rankings. We build ultra-lightweight, high-speed websites with optimal Core Web Vitals.</p>
+                </article>
+
+                <article class="feature-card">
+                    <svg class="feature-svg-icon" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+                    <h3>100% Mobile Responsive</h3>
+                    <p>Over 60% of web traffic comes from mobile devices. Every layout is tested meticulously on iOS, Android, tablets, and desktops.</p>
+                </article>
+
+                <article class="feature-card">
+                    <svg class="feature-svg-icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    <h3>SEO-First Architecture</h3>
+                    <p>Built from day one with search engines in mind: clean semantic markup, fast loading, meta tags, and structured JSON-LD schemas.</p>
+                </article>
+
+                <article class="feature-card">
+                    <svg class="feature-svg-icon" viewBox="0 0 24 24"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"></circle><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"></circle><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"></circle><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"></circle><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.563-2.512 5.563-5.563C22 6.5 17.5 2 12 2z"></path></svg>
+                    <h3>Custom Tailored UI/UX</h3>
+                    <p>No generic, cookie-cutter templates. We design custom digital identities that resonate with your target audience and stand out.</p>
+                </article>
+
+                <article class="feature-card">
+                    <svg class="feature-svg-icon" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    <h3>Clean & Maintainable Code</h3>
+                    <p>Standard-compliant code built with best engineering practices, making future updates, feature additions, and scaling seamless.</p>
+                </article>
+
+                <article class="feature-card">
+                    <svg class="feature-svg-icon" viewBox="0 0 24 24"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path></svg>
+                    <h3>High-Conversion Focus</h3>
+                    <p>Every element is strategically arranged to direct attention toward your call-to-actions, increasing leads, inquiries, and sales.</p>
+                </article>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- 4. OUR PROVEN PROCESS -->
+        <section class="process-container" aria-labelledby="process-heading">
+            <h2 id="process-heading">OUR PROCESS</h2>
+            <div class="process-grid">
+                <div class="process-step">
+                    <span class="step-badge">01</span>
+                    <h3>Discovery & Strategy</h3>
+                    <p>We analyze your business objectives, target audience, brand tone, and competitors to plan a focused website strategy.</p>
+                </div>
+                <div class="process-step">
+                    <span class="step-badge">02</span>
+                    <h3>Wireframing & UI Design</h3>
+                    <p>We craft high-fidelity visual concepts, focusing on user journeys, responsive typography, and visual aesthetics.</p>
+                </div>
+                <div class="process-step">
+                    <span class="step-badge">03</span>
+                    <h3>Frontend Engineering</h3>
+                    <p>We convert designs into fast, interactive, and responsive web pages using clean HTML5, CSS3, JavaScript, and React.</p>
+                </div>
+                <div class="process-step">
+                    <span class="step-badge">04</span>
+                    <h3>Optimization & Launch</h3>
+                    <p>Rigorous cross-browser testing, SEO audit, speed benchmarking, and seamless deployment to your live domain.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- 5. TECH STACK & TOOLS -->
+        <section class="tech-container" aria-labelledby="tech-heading">
+            <h2 id="tech-heading">TECHNOLOGIES WE USE</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <svg class="feature-svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                    <h4>Semantic HTML5</h4>
+                    <p>Clean markup for accessibility, rich SEO snippets, and screen-reader compatibility.</p>
+                </div>
+                <div class="tech-item">
+                    <svg class="feature-svg-icon" viewBox="0 0 24 24"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"></circle><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"></circle><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"></circle><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"></circle><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.563-2.512 5.563-5.563C22 6.5 17.5 2 12 2z"></path></svg>
+                    <h4>Modern CSS3 & Animations</h4>
+                    <p>Fluid grid systems, Flexbox, responsive viewports, and GPU-accelerated transitions.</p>
+                </div>
+                <div class="tech-item">
+                    <svg class="feature-svg-icon" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                    <h4>JavaScript (ES6+)</h4>
+                    <p>Fast client-side logic, API integrations, and smooth interactive event handling.</p>
+                </div>
+                <div class="tech-item">
+                    <svg class="feature-svg-icon" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline><line x1="14" y1="4" x2="10" y2="20"></line></svg>
+                    <h4>React.js Ecosystem</h4>
+                    <p>Component-driven UI architectures for scalable, high-performance web applications.</p>
+                </div>
+                <div class="tech-item">
+                    <svg class="feature-svg-icon" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+                    <h4>Responsive Frameworks</h4>
+                    <p>Tested cross-device frameworks ensuring flawless rendering on all screens.</p>
+                </div>
+                <div class="tech-item">
+                    <svg class="feature-svg-icon" viewBox="0 0 24 24"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path></svg>
+                    <h4>Vercel & Cloud Hosting</h4>
+                    <p>Global Edge Network CDN deployment with automated CI/CD and SSL security.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- 6. CLIENT TESTIMONIALS -->
+        <section class="testimonials-container" aria-labelledby="testimonials-heading">
+            <h2 id="testimonials-heading">CLIENT FEEDBACK</h2>
+            <div class="testimonials-grid">
+                <article class="testimonial-card">
+                    <div class="stars" aria-label="5 out of 5 stars">
+                        <svg class="star-icon" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        <svg class="star-icon" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        <svg class="star-icon" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        <svg class="star-icon" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        <svg class="star-icon" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
                     </div>
-                    <div class="project">
-                        <img src="project1.webp" alt="project1" loading="lazy">
-                        <p>Responsive restaurant website showcasing brand identity and menu using clean HTML, CSS, and modern UI design.</p>
+                    <p class="testimonial-text">
+                        "WeboraCo transformed our online presence completely. The new website is fast, easy to navigate, and customer inquiries have grown significantly since launch."
+                    </p>
+                    <div class="client-info">
+                        <h4>Sai Ganesh Marketing</h4>
+                        <span>Commercial & Trading Enterprise</span>
+                    </div>
+                </article>
+
+                <article class="testimonial-card">
+                    <div class="stars" aria-label="5 out of 5 stars">
+                        <svg class="star-icon" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        <svg class="star-icon" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        <svg class="star-icon" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        <svg class="star-icon" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        <svg class="star-icon" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "The design and mobile responsiveness exceeded our expectations. Our customers love browsing the coffee menu and finding cafe details easily."
+                    </p>
+                    <div class="client-info">
+                        <h4>Gillott Espresso</h4>
+                        <span>Artisan Coffee Brand</span>
+                    </div>
+                </article>
+
+                <article class="testimonial-card">
+                    <div class="stars" aria-label="5 out of 5 stars">
+                        <svg class="star-icon" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        <svg class="star-icon" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        <svg class="star-icon" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        <svg class="star-icon" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        <svg class="star-icon" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "Professional communication, rapid turnaround, and attention to detail. WeboraCo delivered a clean website that ranks well on Google."
+                    </p>
+                    <div class="client-info">
+                        <h4>Digital Venture Partner</h4>
+                        <span>Strategic Business Client</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- 7. FREQUENTLY ASKED QUESTIONS (FAQ) -->
+        <section class="faq-container" aria-labelledby="faq-heading">
+            <h2 id="faq-heading">FREQUENTLY ASKED QUESTIONS</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+                        <span>What is your typical turnaround time for a website?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Most standard business websites are designed and launched within 1 to 2 weeks. More complex applications or multi-page systems take 2 to 4 weeks depending on the scope.</p>
                     </div>
                 </div>
-            </section>
-            <hr>
-            <section class="about">
-                <img src="oglogo.webp" alt="WeboraCo full brand logo" loading="lazy">
-                <h3>Our mission is simple, to help businesses grow through<br> thoughtful design and dependable technology.</h3>
-            </section>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+                        <span>Will my website be mobile friendly and SEO optimized?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, 100%. Every website we build is crafted with a mobile-first philosophy, fast loading times, semantic HTML5 tags, and complete SEO schema metadata.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+                        <span>Can you redesign our existing website?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! We can modernize your current website, improve its speed benchmarks, enhance the mobile experience, and optimize it for search engines.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+                        <span>How do we get started?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Getting started is simple. Reach out via our <a href="contactus.html">Contact Us</a> page or email us at info.webora.co@gmail.com with your project goals, and we'll reply within 24 hours.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- 8. CALL TO ACTION (CTA) -->
+        <section class="cta-container">
+            <div class="cta-card">
+                <h3>Ready to Build a High-Impact Website?</h3>
+                <p>Let's collaborate to build a fast, modern, and SEO-optimized website that elevates your brand and drives customer action.</p>
+                <a href="contactus.html" class="cta-button">Start Your Project &rarr;</a>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Mission Statement -->
+        <section class="about" aria-label="WeboraCo Mission">
+            <img src="oglogo.webp" alt="WeboraCo full brand logo" loading="lazy" width="300" height="auto">
+            <h3>Our mission is simple: to help businesses grow through<br> thoughtful design and dependable technology.</h3>
+        </section>
+    </main>
+
+    <!-- Proper Modern Multi-Column Footer -->
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-col footer-brand">
+                <a href="index.html" class="footer-brand-logo" aria-label="WeboraCo Home">
+                    <img src="logo1.webp" alt="WeboraCo Symbol Logo" width="36" height="36">
+                    <img src="logo.webp" alt="WeboraCo Brand Logo" height="36">
+                </a>
+                <p class="footer-desc">
+                    WeboraCo is a modern web design and frontend development studio crafting fast, responsive, and SEO-optimized digital experiences that help businesses grow.
+                </p>
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/webora.co?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="WeboraCo on Instagram">
+                        <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="works.html">Our Works</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Our Services</h4>
+                <ul class="footer-links">
+                    <li><a href="services.html">Website Design & UI/UX</a></li>
+                    <li><a href="services.html">Frontend Engineering</a></li>
+                    <li><a href="services.html">Speed & Performance</a></li>
+                    <li><a href="services.html">SEO-First Architecture</a></li>
+                    <li><a href="services.html">Mobile Optimization</a></li>
+                    <li><a href="services.html">Website Maintenance</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Get In Touch</h4>
+                <div class="footer-contact-info">
+                    <div class="footer-contact-item">
+                        <svg class="footer-svg-icon" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        <a href="mailto:info.webora.co@gmail.com">info.webora.co@gmail.com</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg class="footer-svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
+                        <span>Remote Studio • Worldwide</span>
+                    </div>
+                    <div class="status-badge">
+                        <span class="status-dot"></span>
+                        <span>Available for new projects</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <script src="script.js"></script>
-    </body>
-    <footer>
-        <h5>Follow Us
-            <a href="https://www.instagram.com/webora.co?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img src="instagram.webp" alt="instagram"></a>
-        </h5>
-        <p>© 2025 WeboraCo. All rights reserved.</p>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-inner">
+                <p>© 2025 WeboraCo. All rights reserved. Professional Website Design & Frontend Studio.</p>
+                <button class="back-to-top-btn" onclick="scrollToTop()" aria-label="Scroll back to top">
+                    <span>&uarr;</span>
+                    <span>Back to Top</span>
+                </button>
+            </div>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
