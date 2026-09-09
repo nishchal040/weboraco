@@ -80,20 +80,18 @@ function toggleFaq(button) {
             item.classList.remove('open');
             const otherAnswer = item.querySelector('.faq-answer');
             if (otherAnswer) otherAnswer.style.maxHeight = null;
-            const otherIcon = item.querySelector('.faq-icon');
-            if (otherIcon) otherIcon.textContent = '+';
+            const otherBtn = item.querySelector('.faq-question');
+            if (otherBtn) otherBtn.setAttribute('aria-expanded', 'false');
         }
     });
 
     if (isOpen) {
         faqItem.classList.remove('open');
         answer.style.maxHeight = null;
-        const icon = faqItem.querySelector('.faq-icon');
-        if (icon) icon.textContent = '+';
+        button.setAttribute('aria-expanded', 'false');
     } else {
         faqItem.classList.add('open');
         answer.style.maxHeight = answer.scrollHeight + 'px';
-        const icon = faqItem.querySelector('.faq-icon');
-        if (icon) icon.textContent = '−';
+        button.setAttribute('aria-expanded', 'true');
     }
 }

@@ -23,7 +23,7 @@ body {
 
 @font-face {
     font-family: "Milker";
-    src: url(milker.regular.otf);
+    src: url(assets/milker.regular.otf);
 }
 
 /* ==========================================================================
@@ -39,6 +39,37 @@ body {
     flex-shrink: 0;
     stroke: currentColor;
     fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.btn-arrow-icon {
+    width: 16px;
+    height: 16px;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 2.2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    display: inline-block;
+    vertical-align: middle;
+    flex-shrink: 0;
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-arrow-up {
+    width: 15px;
+    height: 15px;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    display: inline-block;
+    vertical-align: middle;
+    flex-shrink: 0;
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .feature-svg-icon {
@@ -70,6 +101,7 @@ body {
     stroke-width: 2.2;
     stroke-linecap: round;
     stroke-linejoin: round;
+    flex-shrink: 0;
 }
 
 .list-svg-icon {
@@ -216,7 +248,8 @@ nav.navbar.scrolled {
     transition: all 0.25s ease;
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    justify-content: center;
+    gap: 8px;
 }
 
 .nav-cta:hover {
@@ -224,6 +257,10 @@ nav.navbar.scrolled {
     box-shadow: 0 6px 18px rgba(35, 214, 201, 0.5);
     background: #ffffff;
     color: #0a4fbe;
+}
+
+.nav-cta:hover .btn-arrow-icon {
+    transform: translateX(4px);
 }
 
 .ham-btn {
@@ -604,7 +641,9 @@ hr {
 }
 
 .project-link-btn {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     margin: 0 25px 25px 25px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -616,7 +655,10 @@ hr {
 
 .project-link-btn:hover {
     color: #0284c7;
-    text-decoration: underline;
+}
+
+.project-link-btn:hover .btn-arrow-icon {
+    transform: translateX(4px);
 }
 
 /* ==========================================================================
@@ -880,12 +922,31 @@ hr {
 }
 
 .faq-icon {
-    font-size: 1.5rem;
-    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
     color: #0a4fbe;
     margin-left: 15px;
-    line-height: 1;
     flex-shrink: 0;
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.faq-icon svg {
+    width: 20px;
+    height: 20px;
+    stroke: currentColor;
+    stroke-width: 2.2;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: stroke 0.25s ease;
+}
+
+.faq-item.open .faq-icon {
+    transform: rotate(180deg);
+    color: #0284c7;
 }
 
 .faq-answer {
@@ -946,7 +1007,10 @@ hr {
 }
 
 .cta-button {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     background-color: #23d6c9;
     color: #072663;
     font-family: 'Poppins', sans-serif;
@@ -964,6 +1028,10 @@ hr {
     transform: translateY(-2px) scale(1.03);
     background-color: #ffffff;
     color: #0a4fbe;
+}
+
+.cta-button:hover .btn-arrow-icon {
+    transform: translateX(4px);
 }
 
 /* ==========================================================================
@@ -1169,12 +1237,20 @@ form.inquiry-form {
     transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
     margin-top: 10px;
     width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
 
 .submit-btn:hover {
     transform: translateY(-2px);
     box-shadow: 0px 6px 20px rgba(10, 79, 190, 0.6);
     background: linear-gradient(135deg, #1d6bf3, #0a4fbe);
+}
+
+.submit-btn:hover .btn-arrow-icon {
+    transform: translateX(4px);
 }
 
 .contact-info-panel {
@@ -1504,7 +1580,7 @@ footer.site-footer {
     transition: all 0.2s ease;
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
     cursor: pointer;
 }
 
@@ -1512,6 +1588,10 @@ footer.site-footer {
     background: #23d6c9;
     color: #072663;
     transform: translateY(-2px);
+}
+
+.back-to-top-btn:hover .btn-arrow-up {
+    transform: translateY(-3px);
 }
 
 /* ==========================================================================

@@ -21,7 +21,7 @@
     <meta property="og:url" content="https://weboraco.com/aboutus.html">
     <meta property="og:title" content="About WeboraCo – Modern Website Design & Frontend Studio">
     <meta property="og:description" content="Learn about WeboraCo, a modern web design and frontend development studio building fast, responsive, and SEO-friendly websites for ambitious businesses.">
-    <meta property="og:image" content="https://weboraco.com/oglogo.webp">
+    <meta property="og:image" content="https://weboraco.com/assets/oglogo.webp">
     <meta property="og:image:alt" content="WeboraCo Brand Logo">
     <meta property="og:site_name" content="WeboraCo">
 
@@ -30,7 +30,7 @@
     <meta name="twitter:url" content="https://weboraco.com/aboutus.html">
     <meta name="twitter:title" content="About WeboraCo – Modern Website Design & Frontend Studio">
     <meta name="twitter:description" content="Learn about WeboraCo, a modern web design and frontend development studio building fast, responsive, and SEO-friendly websites.">
-    <meta name="twitter:image" content="https://weboraco.com/oglogo.webp">
+    <meta name="twitter:image" content="https://weboraco.com/assets/oglogo.webp">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,7 +40,7 @@
     </style>
 
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon-32x32.webp" type="image/webp">
+    <link rel="shortcut icon" href="assets/favicon-32x32.webp" type="image/webp">
 
     <!-- Schema.org JSON-LD Structured Data -->
     <script type="application/ld+json">
@@ -51,7 +51,7 @@
         "@type": "Organization",
         "name": "WeboraCo",
         "url": "https://weboraco.com/",
-        "logo": "https://weboraco.com/logo.webp",
+        "logo": "https://weboraco.com/assets/logo.webp",
         "description": "Modern web design and frontend development studio crafting high-performance, conversion-focused websites.",
         "email": "info.webora.co@gmail.com"
       }
@@ -63,8 +63,8 @@
     <header class="site-header">
         <nav class="navbar" aria-label="Main Navigation">
             <a href="index.html" class="logo" aria-label="WeboraCo Home">
-                <img src="logo1.webp" alt="WeboraCo Symbol Logo" width="40" height="40">
-                <img src="logo.webp" alt="WeboraCo Brand Logo" height="40">
+                <img src="assets/logo1.webp" alt="WeboraCo Symbol Logo" width="40" height="40">
+                <img src="assets/logo.webp" alt="WeboraCo Brand Logo" height="40">
             </a>
             
             <div class="nav-menu" id="nav-menu">
@@ -79,13 +79,19 @@
                     <li class="nav-item active"><a href="aboutus.html">About Us</a></li>
                     <li class="nav-item"><a href="contactus.html">Contact Us</a></li>
                 </ul>
-                <a href="contactus.html" class="nav-cta mobile-drawer-cta">Let's Talk &rarr;</a>
+                <a href="contactus.html" class="nav-cta mobile-drawer-cta">
+                    Let's Talk
+                    <svg class="btn-arrow-icon" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
             </div>
 
             <div class="nav-actions">
-                <a href="contactus.html" class="nav-cta">Let's Talk &rarr;</a>
+                <a href="contactus.html" class="nav-cta">
+                    Let's Talk
+                    <svg class="btn-arrow-icon" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
                 <button class="ham-btn" id="ham-menu" onclick="showmenu()" aria-label="Open navigation menu">
-                    <img src="menu.webp" alt="Open menu icon" width="28" height="28">
+                    <img src="assets/menu.webp" alt="Open menu icon" width="28" height="28">
                 </button>
             </div>
         </nav>
@@ -94,7 +100,7 @@
     <main>
         <!-- Polished Inner Hero Section -->
         <section class="inner-hero" aria-label="About Us Hero Banner">
-            <video src="bg.webm" autoplay muted loop preload="metadata" poster="poster.webp" playsinline></video>
+            <video src="assets/bg.webm" autoplay muted loop preload="metadata" poster="assets/poster.webp" playsinline></video>
             <div class="inner-hero-overlay"></div>
             <div class="inner-hero-content">
                 <div class="hero-badge">
@@ -165,14 +171,17 @@
             <div class="cta-card">
                 <h3>Ready to Work With Us?</h3>
                 <p>Let's turn your vision into a fast, modern, and SEO-optimized website that drives tangible results.</p>
-                <a href="contactus.html" class="cta-button">Get in Touch With Us &rarr;</a>
+                <a href="contactus.html" class="cta-button">
+                    Get in Touch With Us
+                    <svg class="btn-arrow-icon" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
             </div>
         </section>
 
         <hr>
 
         <section class="about" aria-label="Our Mission">
-            <img src="oglogo.webp" alt="WeboraCo full brand logo" loading="lazy" width="300" height="auto">
+            <img src="assets/oglogo.webp" alt="WeboraCo full brand logo" loading="lazy" width="300" height="auto">
             <h2>Our mission is simple: to help businesses grow through<br> thoughtful design and dependable technology.</h2>
         </section>
     </main>
@@ -182,8 +191,8 @@
         <div class="footer-top">
             <div class="footer-col footer-brand">
                 <a href="index.html" class="footer-brand-logo" aria-label="WeboraCo Home">
-                    <img src="logo1.webp" alt="WeboraCo Symbol Logo" width="36" height="36">
-                    <img src="logo.webp" alt="WeboraCo Brand Logo" height="36">
+                    <img src="assets/logo1.webp" alt="WeboraCo Symbol Logo" width="36" height="36">
+                    <img src="assets/logo.webp" alt="WeboraCo Brand Logo" height="36">
                 </a>
                 <p class="footer-desc">
                     WeboraCo is a modern web design and frontend development studio crafting fast, responsive, and SEO-optimized digital experiences that help businesses grow.
@@ -242,7 +251,7 @@
             <div class="footer-bottom-inner">
                 <p>© 2025 WeboraCo. All rights reserved. Professional Website Design & Frontend Studio.</p>
                 <button class="back-to-top-btn" onclick="scrollToTop()" aria-label="Scroll back to top">
-                    <span>&uarr;</span>
+                    <svg class="btn-arrow-up" viewBox="0 0 24 24"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
                     <span>Back to Top</span>
                 </button>
             </div>
