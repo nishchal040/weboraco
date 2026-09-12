@@ -319,6 +319,17 @@ footer.site-footer {
     text-decoration: none;
 }
 
+.social-link svg {
+    width: 20px;
+    height: 20px;
+    stroke: #ffffff;
+    fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: stroke 0.2s ease;
+}
+
 .social-link img {
     width: 20px;
     height: 20px;

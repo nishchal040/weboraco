@@ -1,4 +1,50 @@
+# robots.txt for WeboraCo (https://weboraco.com)
+# Global Crawler Directives
+
 User-agent: *
 Allow: /
+Allow: /assets/
+Allow: /blogs/
+Disallow: /node_modules/
+Disallow: /.git/
 
+# Major Search Engine Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+# Modern AI Search & Summary Agents
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+# XML Sitemap Location
 Sitemap: https://weboraco.com/sitemap.xml
