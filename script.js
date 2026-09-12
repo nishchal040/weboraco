@@ -7,7 +7,7 @@ function sendmail() {
     };
 
     emailjs
-        .send("service_qpdunv7", "template_8jomi5v", params)
+        .send("service_6izxvj5", "service_6izxvj5", params)
         .then(() => {
             alert("Message sent successfully! We will get back to you shortly.");
             const form = document.querySelector("form");
