@@ -1,4 +1,4 @@
-# robots.txt for WeboraCo (https://weboraco.com)
+﻿# robots.txt for WeboraCo (https://weboraco.vercel.app)
 # Global Crawler Directives
 
 User-agent: *
@@ -47,4 +47,4 @@ User-agent: Cohere-ai
 Allow: /
 
 # XML Sitemap Location
-Sitemap: https://weboraco.com/sitemap.xml
+Sitemap: https://weboraco.vercel.app/sitemap.xml

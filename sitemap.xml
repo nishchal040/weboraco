@@ -1,277 +1,277 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <!-- Homepage -->
   <url>
-    <loc>https://weboraco.com/</loc>
+    <loc>https://weboraco.vercel.app/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.com/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.com/" />
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.com/" />
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.com/" />
-    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.com/" />
-    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.com/" />
-    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.com/" />
-    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.com/" />
-    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.com/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.vercel.app/" />
   </url>
 
   <!-- Services -->
   <url>
-    <loc>https://weboraco.com/services.html</loc>
+    <loc>https://weboraco.vercel.app/services</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.com/services.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.com/services.html" />
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.com/services.html" />
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.com/services.html" />
-    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.com/services.html" />
-    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.com/services.html" />
-    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.com/services.html" />
-    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.com/services.html" />
-    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.com/services.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.vercel.app/services" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.vercel.app/services" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.vercel.app/services" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.vercel.app/services" />
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.vercel.app/services" />
+    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.vercel.app/services" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.vercel.app/services" />
+    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.vercel.app/services" />
+    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.vercel.app/services" />
   </url>
 
   <!-- Pricing & Packages -->
   <url>
-    <loc>https://weboraco.com/pricing.html</loc>
+    <loc>https://weboraco.vercel.app/pricing</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.com/pricing.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.com/pricing.html" />
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.com/pricing.html" />
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.com/pricing.html" />
-    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.com/pricing.html" />
-    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.com/pricing.html" />
-    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.com/pricing.html" />
-    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.com/pricing.html" />
-    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.com/pricing.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.vercel.app/pricing" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.vercel.app/pricing" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.vercel.app/pricing" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.vercel.app/pricing" />
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.vercel.app/pricing" />
+    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.vercel.app/pricing" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.vercel.app/pricing" />
+    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.vercel.app/pricing" />
+    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.vercel.app/pricing" />
   </url>
 
   <!-- Portfolio / Works -->
   <url>
-    <loc>https://weboraco.com/works.html</loc>
+    <loc>https://weboraco.vercel.app/works</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.com/works.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.com/works.html" />
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.com/works.html" />
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.com/works.html" />
-    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.com/works.html" />
-    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.com/works.html" />
-    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.com/works.html" />
-    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.com/works.html" />
-    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.com/works.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.vercel.app/works" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.vercel.app/works" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.vercel.app/works" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.vercel.app/works" />
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.vercel.app/works" />
+    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.vercel.app/works" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.vercel.app/works" />
+    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.vercel.app/works" />
+    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.vercel.app/works" />
   </url>
 
   <!-- Blog Index -->
   <url>
-    <loc>https://weboraco.com/blogs.html</loc>
+    <loc>https://weboraco.vercel.app/blogs</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.com/blogs.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.com/blogs.html" />
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.com/blogs.html" />
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.com/blogs.html" />
-    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.com/blogs.html" />
-    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.com/blogs.html" />
-    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.com/blogs.html" />
-    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.com/blogs.html" />
-    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.com/blogs.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.vercel.app/blogs" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.vercel.app/blogs" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.vercel.app/blogs" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.vercel.app/blogs" />
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.vercel.app/blogs" />
+    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.vercel.app/blogs" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.vercel.app/blogs" />
+    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.vercel.app/blogs" />
+    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.vercel.app/blogs" />
   </url>
 
   <!-- Blog 1: Core Web Vitals -->
   <url>
-    <loc>https://weboraco.com/blogs/blog-speed-core-web-vitals.html</loc>
+    <loc>https://weboraco.vercel.app/blogs/blog-speed-core-web-vitals</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.com/blogs/blog-speed-core-web-vitals.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.com/blogs/blog-speed-core-web-vitals.html" />
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.com/blogs/blog-speed-core-web-vitals.html" />
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.com/blogs/blog-speed-core-web-vitals.html" />
-    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.com/blogs/blog-speed-core-web-vitals.html" />
-    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.com/blogs/blog-speed-core-web-vitals.html" />
-    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.com/blogs/blog-speed-core-web-vitals.html" />
-    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.com/blogs/blog-speed-core-web-vitals.html" />
-    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.com/blogs/blog-speed-core-web-vitals.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.vercel.app/blogs/blog-speed-core-web-vitals" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.vercel.app/blogs/blog-speed-core-web-vitals" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.vercel.app/blogs/blog-speed-core-web-vitals" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.vercel.app/blogs/blog-speed-core-web-vitals" />
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.vercel.app/blogs/blog-speed-core-web-vitals" />
+    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.vercel.app/blogs/blog-speed-core-web-vitals" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.vercel.app/blogs/blog-speed-core-web-vitals" />
+    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.vercel.app/blogs/blog-speed-core-web-vitals" />
+    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.vercel.app/blogs/blog-speed-core-web-vitals" />
   </url>
 
   <!-- Blog 2: Custom Code vs Templates -->
   <url>
-    <loc>https://weboraco.com/blogs/blog-custom-code-vs-templates.html</loc>
+    <loc>https://weboraco.vercel.app/blogs/blog-custom-code-vs-templates</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.com/blogs/blog-custom-code-vs-templates.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.com/blogs/blog-custom-code-vs-templates.html" />
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.com/blogs/blog-custom-code-vs-templates.html" />
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.com/blogs/blog-custom-code-vs-templates.html" />
-    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.com/blogs/blog-custom-code-vs-templates.html" />
-    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.com/blogs/blog-custom-code-vs-templates.html" />
-    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.com/blogs/blog-custom-code-vs-templates.html" />
-    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.com/blogs/blog-custom-code-vs-templates.html" />
-    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.com/blogs/blog-custom-code-vs-templates.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.vercel.app/blogs/blog-custom-code-vs-templates" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.vercel.app/blogs/blog-custom-code-vs-templates" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.vercel.app/blogs/blog-custom-code-vs-templates" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.vercel.app/blogs/blog-custom-code-vs-templates" />
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.vercel.app/blogs/blog-custom-code-vs-templates" />
+    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.vercel.app/blogs/blog-custom-code-vs-templates" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.vercel.app/blogs/blog-custom-code-vs-templates" />
+    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.vercel.app/blogs/blog-custom-code-vs-templates" />
+    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.vercel.app/blogs/blog-custom-code-vs-templates" />
   </url>
 
   <!-- Blog 3: Modern Frontend Architecture -->
   <url>
-    <loc>https://weboraco.com/blogs/blog-modern-frontend-architecture.html</loc>
+    <loc>https://weboraco.vercel.app/blogs/blog-modern-frontend-architecture</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.com/blogs/blog-modern-frontend-architecture.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.com/blogs/blog-modern-frontend-architecture.html" />
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.com/blogs/blog-modern-frontend-architecture.html" />
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.com/blogs/blog-modern-frontend-architecture.html" />
-    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.com/blogs/blog-modern-frontend-architecture.html" />
-    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.com/blogs/blog-modern-frontend-architecture.html" />
-    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.com/blogs/blog-modern-frontend-architecture.html" />
-    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.com/blogs/blog-modern-frontend-architecture.html" />
-    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.com/blogs/blog-modern-frontend-architecture.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.vercel.app/blogs/blog-modern-frontend-architecture" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.vercel.app/blogs/blog-modern-frontend-architecture" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.vercel.app/blogs/blog-modern-frontend-architecture" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.vercel.app/blogs/blog-modern-frontend-architecture" />
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.vercel.app/blogs/blog-modern-frontend-architecture" />
+    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.vercel.app/blogs/blog-modern-frontend-architecture" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.vercel.app/blogs/blog-modern-frontend-architecture" />
+    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.vercel.app/blogs/blog-modern-frontend-architecture" />
+    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.vercel.app/blogs/blog-modern-frontend-architecture" />
   </url>
 
   <!-- Blog 4: UI/UX Design Principles -->
   <url>
-    <loc>https://weboraco.com/blogs/blog-ui-ux-design-principles.html</loc>
+    <loc>https://weboraco.vercel.app/blogs/blog-ui-ux-design-principles</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.com/blogs/blog-ui-ux-design-principles.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.com/blogs/blog-ui-ux-design-principles.html" />
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.com/blogs/blog-ui-ux-design-principles.html" />
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.com/blogs/blog-ui-ux-design-principles.html" />
-    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.com/blogs/blog-ui-ux-design-principles.html" />
-    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.com/blogs/blog-ui-ux-design-principles.html" />
-    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.com/blogs/blog-ui-ux-design-principles.html" />
-    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.com/blogs/blog-ui-ux-design-principles.html" />
-    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.com/blogs/blog-ui-ux-design-principles.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.vercel.app/blogs/blog-ui-ux-design-principles" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.vercel.app/blogs/blog-ui-ux-design-principles" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.vercel.app/blogs/blog-ui-ux-design-principles" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.vercel.app/blogs/blog-ui-ux-design-principles" />
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.vercel.app/blogs/blog-ui-ux-design-principles" />
+    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.vercel.app/blogs/blog-ui-ux-design-principles" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.vercel.app/blogs/blog-ui-ux-design-principles" />
+    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.vercel.app/blogs/blog-ui-ux-design-principles" />
+    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.vercel.app/blogs/blog-ui-ux-design-principles" />
   </url>
 
   <!-- Blog 5: Website Development Cost Guide 2026 -->
   <url>
-    <loc>https://weboraco.com/blogs/blog-website-development-cost-guide-india-uk-europe.html</loc>
+    <loc>https://weboraco.vercel.app/blogs/blog-website-development-cost-guide-india-uk-europe</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.com/blogs/blog-website-development-cost-guide-india-uk-europe.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.com/blogs/blog-website-development-cost-guide-india-uk-europe.html" />
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.com/blogs/blog-website-development-cost-guide-india-uk-europe.html" />
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.com/blogs/blog-website-development-cost-guide-india-uk-europe.html" />
-    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.com/blogs/blog-website-development-cost-guide-india-uk-europe.html" />
-    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.com/blogs/blog-website-development-cost-guide-india-uk-europe.html" />
-    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.com/blogs/blog-website-development-cost-guide-india-uk-europe.html" />
-    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.com/blogs/blog-website-development-cost-guide-india-uk-europe.html" />
-    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.com/blogs/blog-website-development-cost-guide-india-uk-europe.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.vercel.app/blogs/blog-website-development-cost-guide-india-uk-europe" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.vercel.app/blogs/blog-website-development-cost-guide-india-uk-europe" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.vercel.app/blogs/blog-website-development-cost-guide-india-uk-europe" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.vercel.app/blogs/blog-website-development-cost-guide-india-uk-europe" />
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.vercel.app/blogs/blog-website-development-cost-guide-india-uk-europe" />
+    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.vercel.app/blogs/blog-website-development-cost-guide-india-uk-europe" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.vercel.app/blogs/blog-website-development-cost-guide-india-uk-europe" />
+    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.vercel.app/blogs/blog-website-development-cost-guide-india-uk-europe" />
+    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.vercel.app/blogs/blog-website-development-cost-guide-india-uk-europe" />
   </url>
 
   <!-- Blog 6: International SEO & Multi-Region Architecture -->
   <url>
-    <loc>https://weboraco.com/blogs/blog-international-seo-multilingual-websites.html</loc>
+    <loc>https://weboraco.vercel.app/blogs/blog-international-seo-multilingual-websites</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.com/blogs/blog-international-seo-multilingual-websites.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.com/blogs/blog-international-seo-multilingual-websites.html" />
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.com/blogs/blog-international-seo-multilingual-websites.html" />
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.com/blogs/blog-international-seo-multilingual-websites.html" />
-    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.com/blogs/blog-international-seo-multilingual-websites.html" />
-    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.com/blogs/blog-international-seo-multilingual-websites.html" />
-    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.com/blogs/blog-international-seo-multilingual-websites.html" />
-    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.com/blogs/blog-international-seo-multilingual-websites.html" />
-    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.com/blogs/blog-international-seo-multilingual-websites.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.vercel.app/blogs/blog-international-seo-multilingual-websites" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.vercel.app/blogs/blog-international-seo-multilingual-websites" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.vercel.app/blogs/blog-international-seo-multilingual-websites" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.vercel.app/blogs/blog-international-seo-multilingual-websites" />
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.vercel.app/blogs/blog-international-seo-multilingual-websites" />
+    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.vercel.app/blogs/blog-international-seo-multilingual-websites" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.vercel.app/blogs/blog-international-seo-multilingual-websites" />
+    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.vercel.app/blogs/blog-international-seo-multilingual-websites" />
+    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.vercel.app/blogs/blog-international-seo-multilingual-websites" />
   </url>
 
   <!-- Blog 7: GDPR & Fast Frontend -->
   <url>
-    <loc>https://weboraco.com/blogs/blog-gdpr-compliant-fast-web-development.html</loc>
+    <loc>https://weboraco.vercel.app/blogs/blog-gdpr-compliant-fast-web-development</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.com/blogs/blog-gdpr-compliant-fast-web-development.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.com/blogs/blog-gdpr-compliant-fast-web-development.html" />
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.com/blogs/blog-gdpr-compliant-fast-web-development.html" />
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.com/blogs/blog-gdpr-compliant-fast-web-development.html" />
-    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.com/blogs/blog-gdpr-compliant-fast-web-development.html" />
-    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.com/blogs/blog-gdpr-compliant-fast-web-development.html" />
-    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.com/blogs/blog-gdpr-compliant-fast-web-development.html" />
-    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.com/blogs/blog-gdpr-compliant-fast-web-development.html" />
-    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.com/blogs/blog-gdpr-compliant-fast-web-development.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.vercel.app/blogs/blog-gdpr-compliant-fast-web-development" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.vercel.app/blogs/blog-gdpr-compliant-fast-web-development" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.vercel.app/blogs/blog-gdpr-compliant-fast-web-development" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.vercel.app/blogs/blog-gdpr-compliant-fast-web-development" />
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.vercel.app/blogs/blog-gdpr-compliant-fast-web-development" />
+    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.vercel.app/blogs/blog-gdpr-compliant-fast-web-development" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.vercel.app/blogs/blog-gdpr-compliant-fast-web-development" />
+    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.vercel.app/blogs/blog-gdpr-compliant-fast-web-development" />
+    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.vercel.app/blogs/blog-gdpr-compliant-fast-web-development" />
   </url>
 
   <!-- Blog 8: Outsourcing Web Development to India -->
   <url>
-    <loc>https://weboraco.com/blogs/blog-outsourcing-web-development-to-india.html</loc>
+    <loc>https://weboraco.vercel.app/blogs/blog-outsourcing-web-development-to-india</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.com/blogs/blog-outsourcing-web-development-to-india.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.com/blogs/blog-outsourcing-web-development-to-india.html" />
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.com/blogs/blog-outsourcing-web-development-to-india.html" />
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.com/blogs/blog-outsourcing-web-development-to-india.html" />
-    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.com/blogs/blog-outsourcing-web-development-to-india.html" />
-    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.com/blogs/blog-outsourcing-web-development-to-india.html" />
-    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.com/blogs/blog-outsourcing-web-development-to-india.html" />
-    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.com/blogs/blog-outsourcing-web-development-to-india.html" />
-    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.com/blogs/blog-outsourcing-web-development-to-india.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.vercel.app/blogs/blog-outsourcing-web-development-to-india" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.vercel.app/blogs/blog-outsourcing-web-development-to-india" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.vercel.app/blogs/blog-outsourcing-web-development-to-india" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.vercel.app/blogs/blog-outsourcing-web-development-to-india" />
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.vercel.app/blogs/blog-outsourcing-web-development-to-india" />
+    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.vercel.app/blogs/blog-outsourcing-web-development-to-india" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.vercel.app/blogs/blog-outsourcing-web-development-to-india" />
+    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.vercel.app/blogs/blog-outsourcing-web-development-to-india" />
+    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.vercel.app/blogs/blog-outsourcing-web-development-to-india" />
   </url>
 
   <!-- FAQ -->
   <url>
-    <loc>https://weboraco.com/faq.html</loc>
+    <loc>https://weboraco.vercel.app/faq</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.com/faq.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.com/faq.html" />
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.com/faq.html" />
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.com/faq.html" />
-    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.com/faq.html" />
-    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.com/faq.html" />
-    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.com/faq.html" />
-    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.com/faq.html" />
-    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.com/faq.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.vercel.app/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.vercel.app/faq" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.vercel.app/faq" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.vercel.app/faq" />
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.vercel.app/faq" />
+    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.vercel.app/faq" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.vercel.app/faq" />
+    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.vercel.app/faq" />
+    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.vercel.app/faq" />
   </url>
 
   <!-- About Us -->
   <url>
-    <loc>https://weboraco.com/aboutus.html</loc>
+    <loc>https://weboraco.vercel.app/aboutus</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.com/aboutus.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.com/aboutus.html" />
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.com/aboutus.html" />
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.com/aboutus.html" />
-    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.com/aboutus.html" />
-    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.com/aboutus.html" />
-    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.com/aboutus.html" />
-    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.com/aboutus.html" />
-    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.com/aboutus.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.vercel.app/aboutus" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.vercel.app/aboutus" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.vercel.app/aboutus" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.vercel.app/aboutus" />
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.vercel.app/aboutus" />
+    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.vercel.app/aboutus" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.vercel.app/aboutus" />
+    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.vercel.app/aboutus" />
+    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.vercel.app/aboutus" />
   </url>
 
   <!-- Contact Us -->
   <url>
-    <loc>https://weboraco.com/contactus.html</loc>
+    <loc>https://weboraco.vercel.app/contactus</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.com/contactus.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.com/contactus.html" />
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.com/contactus.html" />
-    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.com/contactus.html" />
-    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.com/contactus.html" />
-    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.com/contactus.html" />
-    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.com/contactus.html" />
-    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.com/contactus.html" />
-    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.com/contactus.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weboraco.vercel.app/contactus" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://weboraco.vercel.app/contactus" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://weboraco.vercel.app/contactus" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://weboraco.vercel.app/contactus" />
+    <xhtml:link rel="alternate" hreflang="en-IE" href="https://weboraco.vercel.app/contactus" />
+    <xhtml:link rel="alternate" hreflang="en-DE" href="https://weboraco.vercel.app/contactus" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://weboraco.vercel.app/contactus" />
+    <xhtml:link rel="alternate" hreflang="en-FR" href="https://weboraco.vercel.app/contactus" />
+    <xhtml:link rel="alternate" hreflang="en-EU" href="https://weboraco.vercel.app/contactus" />
   </url>
 
 </urlset>

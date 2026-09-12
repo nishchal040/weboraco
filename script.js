@@ -469,7 +469,7 @@ function updateCalculator() {
     }
 
     if (ctaBtn) {
-        ctaBtn.href = `contactus.html?plan=calculator&pages=${pages}&currency=${activeCurrency}&quote=${totalCost}`;
+        ctaBtn.href = `contactus?plan=calculator&pages=${pages}&currency=${activeCurrency}&quote=${totalCost}`;
     }
 }
 
